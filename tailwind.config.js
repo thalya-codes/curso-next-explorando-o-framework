@@ -14,5 +14,10 @@ module.exports = {
       },
     },
   },
+  safelist: [
+    {
+      pattern: /^text-(xs|lg|4xl|5xl)/,
+    }
+  ],
   plugins: [],
 }
