@@ -1,4 +1,4 @@
 export default interface ILinkProps {
     href: string;
-    fontSize?: "xs" | "lg"
+    fontSize?: "xs" | "lg" | "xl";
 }
