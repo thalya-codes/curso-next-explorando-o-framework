@@ -13,7 +13,7 @@ export default function Home() {
         <title>Home - Alura Cases Campanha</title>
       </Head>
 
-      <Layout>
+      <Layout classNames="items-center">
         <div className="flex flex-col gap-10 lg:w-5/6 xl:w-auto px-16 xl:px-0 xl:pl-48">
           <header className="flex flex-col gap-20">
             <Image src="/assets/images/alura-logo.svg" alt="Logo Alura" width={100} height={100}/>
