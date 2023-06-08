@@ -22,7 +22,7 @@ module.exports = {
       pattern: /^text-(xs|lg|xl|2xl|4xl|5xl)/,
     },
     {
-      pattern: /^font-(black|bold)/,
+      pattern: /^font-(black|semibold)/,
     }
   ],
   plugins: [],
