@@ -4,17 +4,16 @@ import Layout from "@/components/Layout";
 import Link from "@/components/Link";
 import Paragraph from "@/components/Paragraph";
 import Title from "@/components/Title";
-import { IFaqData } from "@/interfaces/IFaqData";
+import IPageFaqProps, { IFaqData } from "@/interfaces/IFaqPage";
 
-export default function PageFaq() {
-    const [faqData, setFaqData] = useState<IFaqData[] | null>(null);
+export async function getStaticProps() {
+    const API_URL: string = "https://gist.githubusercontent.com/omariosouto/0ceab54bdd8182cbd1a4549d32945c1a/raw/578ad1e8e5296fa048e3e7ff6b317f7497b31ad9/alura-cases-faq.json";
+    const faqData: IFaqData = await fetch(API_URL).then(response => response.json()).then(data => data);
 
-    useEffect(() => {
-        fetch("https://gist.githubusercontent.com/omariosouto/0ceab54bdd8182cbd1a4549d32945c1a/raw/578ad1e8e5296fa048e3e7ff6b317f7497b31ad9/alura-cases-faq.json")
-        .then(response => response.json())
-        .then(data => setFaqData(data));
-    }, []);
+    return { props: { faqData }  };
+}
 
+export default function PageFaq({ faqData }: IPageFaqProps) {   
     return (
         <>
             <Head>
@@ -36,7 +35,7 @@ export default function PageFaq() {
             </header>
 
             <ul className="flex flex-col gap-10 w-5/6">
-                {faqData && faqData.map(({ question, answer }: IFaqData) => (
+                {faqData.map(({ question, answer }: IFaqData) => (
                     <li key={question} className="flex flex-col gap-5">
                         <Title as="h3">{question}</Title>
                         <Paragraph>{answer}</Paragraph>
