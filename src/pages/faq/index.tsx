@@ -37,7 +37,7 @@ export default function PageFaq() {
 
             <ul className="flex flex-col gap-10 w-5/6">
                 {faqData && faqData.map(({ question, answer }: IFaqData) => (
-                    <li className="flex flex-col gap-5">
+                    <li key={question} className="flex flex-col gap-5">
                         <Title as="h3">{question}</Title>
                         <Paragraph>{answer}</Paragraph>
                     </li>
