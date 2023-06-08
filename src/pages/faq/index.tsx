@@ -21,27 +21,27 @@ export default function PageFaq({ faqData }: IPageFaqProps) {
             </Head>
 
             <Layout>
-            <header className="flex flex-col gap-8">
-                <Title as="h2">FAQ: Perguntas Frequentes</Title>
+                <header className="flex flex-col gap-8">
+                    <Title as="h2">FAQ: Perguntas Frequentes</Title>
 
-                <div className="flex flex-col gap-7 w-4/5">
-                    <Paragraph>
-                        Não consegue encontrar a resposta que procura? entre em contato com nosso 
-                        <Link href="mailto:email@email.com" fontSize="xl"> time de suporte ao consumidor</Link>
-                    </Paragraph>
+                    <div className="flex flex-col gap-7 w-4/5">
+                        <Paragraph>
+                            Não consegue encontrar a resposta que procura? entre em contato com nosso 
+                            <Link href="mailto:email@email.com" fontSize="xl"> time de suporte ao consumidor</Link>
+                        </Paragraph>
 
-                    <Link href="/" fontSize="xl">Voltar para home</Link>
-                </div>
-            </header>
+                        <Link href="/" fontSize="xl">Voltar para home</Link>
+                    </div>
+                </header>
 
-            <ul className="flex flex-col gap-10 w-5/6">
-                {faqData.map(({ question, answer }: IFaqData) => (
-                    <li key={question} className="flex flex-col gap-5">
-                        <Title as="h3">{question}</Title>
-                        <Paragraph>{answer}</Paragraph>
-                    </li>
-                ))}
-            </ul>
+                <ul className="flex flex-col gap-10 w-5/6">
+                    {faqData.map(({ question, answer }: IFaqData) => (
+                        <li key={question} className="flex flex-col gap-5">
+                            <Title as="h3">{question}</Title>
+                            <Paragraph>{answer}</Paragraph>
+                        </li>
+                    ))}
+                </ul>
             </Layout>
         </>
     )
