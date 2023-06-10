@@ -14,8 +14,8 @@ export default function Home() {
       </Head>
 
       <Layout classNames="items-center">
-        <div className="flex flex-col gap-10 lg:w-5/6 xl:w-auto px-16 xl:px-0 xl:pl-48">
-          <header className="flex flex-col gap-20">
+        <div className="flex flex-col gap-10 lg:w-5/6 xl:w-[50%] px-16 xl:px-0 xl:pl-48 box-border">
+          <header className="flex flex-col gap-16">
             <Image src="/assets/images/alura-logo.svg" alt="Logo Alura" width={100} height={100}/>
 
             <nav>
@@ -28,6 +28,7 @@ export default function Home() {
 
           <section className="flex flex-col gap-8">
             <Title as="h1">Alura Cases</Title>
+            
             <Paragraph>
               Aqui você vai ter acesso a discussões avançadas: as principais decisões
               sobre arquitetura e design de sistemas. Aprenda através das descobertas 
@@ -40,16 +41,18 @@ export default function Home() {
           </section>
         </div>
 
-          <img 
-            src="/assets/images/alura-cases.png" 
-            alt="Print de tela divulgação Alura cases" 
-            className="
-              xl:relative xl:top-0 
-              xl:scale-118 drop-shadow-2xl xl:left-52
-              xl:rounded-tl-3xl xl:rounded-bl-3xl md:rounded-3xl
-              w-full xl:min-h-full xl:min-w-[840px] md:w-4/5 lg:w-2/3            
-            "  
-          />
+        <Image 
+          src="/assets/images/alura-cases.png" 
+          alt="Print de tela divulgação Alura cases" 
+          width={840}
+          height={840}
+          className="
+            xl:relative xl:top-0 xl:left-52
+            xl:scale-118 drop-shadow-2xl
+            xl:rounded-tl-3xl xl:rounded-bl-3xl md:rounded-3xl
+            xl:min-h-full xl:w-[50%] md:w-4/5 lg:w-2/3            
+          "  
+        />
       </Layout>
     </>
   )

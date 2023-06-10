@@ -20,7 +20,7 @@ export default function PageFaq({ faqData }: IPageFaqProps) {
                 <title>Faq - Alura Cases</title>
             </Head>
 
-            <Layout classNames="px-14 pb-14">
+            <Layout classNames="px-14 pb-20 xl:pt-20">
                 <header className="flex flex-col gap-8">
                     <Title as="h2">FAQ: Perguntas Frequentes</Title>
 
