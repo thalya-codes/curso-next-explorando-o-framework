@@ -1,6 +1,10 @@
-Projeto desenvolvido após o curso "Next.js: explorando o framework" da Alura
+### Projeto desenvolvido após o curso "Next.js: explorando o framework" da Alura
 
-Demo: https://curso-next-explorando-o-framework.vercel.app/
+<br/>
+
+### Demo: https://curso-next-explorando-o-framework.vercel.app/
+
+<br/><br/>
 
 ## Tópicos estudados
 
@@ -16,19 +20,24 @@ Demo: https://curso-next-explorando-o-framework.vercel.app/
 
 - [x] Estilos Globais
 
+<br/>
 
 ## Preview
+
+<br/>
 
 ### Desktop
 ![](./public/assets/screenshots/desktop.gif)
 
+<br/>
+
 ### Mobile
 ![](./public/assets/screenshots/mobile.gif)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br/><br/>
 
 ---------------
-&nbsp;&nbsp;&nbsp;
+<br/>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
