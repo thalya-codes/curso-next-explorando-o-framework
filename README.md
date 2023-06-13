@@ -1,10 +1,8 @@
 ### Projeto desenvolvido após o curso "Next.js: explorando o framework" da Alura
 
-<br/>
-
 ### Demo: https://curso-next-explorando-o-framework.vercel.app/
 
-<br/><br/>
+<br/>
 
 ## Tópicos estudados
 
@@ -20,11 +18,9 @@
 
 - [x] Estilos Globais
 
-<br/>
-
 ## Preview
 
-<br/>
+
 
 ### Desktop
 ![](./public/assets/screenshots/desktop.gif)
