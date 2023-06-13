@@ -1,3 +1,35 @@
+Projeto desenvolvido após o curso "Next.js: explorando o framework" da Alura
+
+Demo: https://curso-next-explorando-o-framework.vercel.app/
+
+## Tópicos estudados
+
+- [x] Benefícios do Next.js
+
+- [x] Como o Next.js ajuda o SEO de um site
+
+- [x] getStaticProps e getServerSideProps
+
+- [x] Componentes do Next.js (Head e Link)
+
+- [x] Configurando rotas de redirecionamento
+
+- [x] Estilos Globais
+
+
+## Preview
+
+### Desktop
+![](./public/assets/screenshots/desktop.gif)
+
+### Mobile
+![](./public/assets/screenshots/mobile.gif)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+---------------
+&nbsp;&nbsp;&nbsp;
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
